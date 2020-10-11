@@ -58,7 +58,10 @@ body {
   color: #595959;
   font-size: 16px;
   line-height: 24px;
+  background: #fff;
 }
+
+
 
 .button-primary {
   background: #1890FF;
@@ -163,6 +166,7 @@ body {
   font-weight: bold;
   font-size: 24px;
   line-height: 32px;
+  color: #000000;
 }
 
 .card-title-reg {
@@ -184,6 +188,9 @@ body {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+
+  text-overflow: ellipsis;
+  /* Добавляем многоточие */
 }
 
 .card-buttons {
